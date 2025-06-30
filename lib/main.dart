@@ -1,9 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'screens/home_screen.dart';
-import 'services/device_discovery_service.dart';
-import 'services/clipboard_service.dart';
-import 'services/file_transfer_service.dart';
 
 void main() {
   runApp(const Conduit());
