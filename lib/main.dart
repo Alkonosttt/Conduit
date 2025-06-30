@@ -15,7 +15,7 @@ class Conduit extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'CrossShare',
+      title: 'Conduit',
       theme: ThemeData(
         primarySwatch: Colors.blue,
         useMaterial3: true,

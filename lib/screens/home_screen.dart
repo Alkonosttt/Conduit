@@ -47,7 +47,7 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('CrossShare'),
+        title: const Text('Conduit'),
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         bottom: TabBar(
           controller: _tabController,

@@ -36,7 +36,7 @@ class DevicesTab extends StatelessWidget {
                 ),
                 SizedBox(height: 8),
                 Text(
-                  'Make sure other devices are running CrossShare',
+                  'Make sure other devices are running Conduit',
                   style: TextStyle(color: Colors.grey),
                 ),
               ],
