@@ -172,7 +172,7 @@ class _ClipboardTabState extends State<ClipboardTab> {
           content: Column(
             mainAxisSize: MainAxisSize.min,
             children: [
-              Text('Send clipboard content to:'),
+              const Text('Send clipboard content to:'),
               const SizedBox(height: 16),
               ...devices.map((device) => ListTile(
                     leading: Icon(

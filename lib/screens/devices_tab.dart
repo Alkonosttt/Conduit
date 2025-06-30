@@ -162,13 +162,13 @@ class DevicesTab extends StatelessWidget {
       context: context,
       builder: (context) => AlertDialog(
         title: Text('Pair with ${device.name}'),
-        content: Column(
+        content: const Column(
           mainAxisSize: MainAxisSize.min,
           children: [
-            const Text('Enter the PIN shown on the other device:'),
-            const SizedBox(height: 16),
+            Text('Enter the PIN shown on the other device:'),
+            SizedBox(height: 16),
             TextField(
-              decoration: const InputDecoration(
+              decoration: InputDecoration(
                 labelText: 'PIN',
                 border: OutlineInputBorder(),
               ),
