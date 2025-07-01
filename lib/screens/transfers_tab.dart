@@ -62,7 +62,7 @@ class TransfersTab extends StatelessWidget {
                     if (transfer.status == TransferStatus.inProgress)
                       LinearProgressIndicator(value: transfer.progress),
                     if (transfer.fileSize != null)
-                      Text('${_formatFileSize(transfer.fileSize!)}'),
+                      Text(_formatFileSize(transfer.fileSize!)),
                   ],
                 ),
                 trailing: Text(
